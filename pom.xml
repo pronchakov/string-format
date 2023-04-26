@@ -7,18 +7,33 @@
     <groupId>io.github.pronchakov</groupId>
     <artifactId>string-format</artifactId>
     <version>1-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
-    <name></name>
-    <description>
+    <name>${project.groupId}:${project.artifactId}</name>
+    <description></description>
+    <url></url>
 
-    </description>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
 
     <developers>
         <developer>
             <name>Artem Pronchakov</name>
             <email>artem.pronchakov@gmail.com</email>
+            <organization>Personal</organization>
+            <organizationUrl>https://github.com/pronchakov</organizationUrl>
         </developer>
     </developers>
+
+    <scm>
+        <connection>scm:git:git://git@github.com:pronchakov/string-format.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:pronchakov/string-format.git</developerConnection>
+        <url>https://github.com/pronchakov/string-format</url>
+    </scm>
 
     <dependencies>
         <dependency>
