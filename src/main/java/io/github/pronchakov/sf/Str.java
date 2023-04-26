@@ -1,19 +1,27 @@
 package io.github.pronchakov.sf;
 
+/**
+* io.github.pronchakov.sf.Str is a class used to format strings.
+ * @author Artem Pronchakov
+*/
 public class Str {
 
     /**
-     * io.github.pronchakov.sf.Str is a class used to format strings.
+     * Format String using {} as a placeholders and arguments as a values
+     * Supported data types for arguments:
+     * <ul>
+     *     <li>Java primitive types</li>
+     *     <li>Java wrappers for primitive types</li>
+     *     <li>Collections</li>
+     * </ul>
      *
-     * Usage:
-     * String result = Str.fmt("I use {} since {}.", "Java", 1995);
+     * Usage example:
+     * <i>String result = Str.fmt("I use {} since {}.", "Java", 1995);</i>
      * String in result: "I use Java since 1995."
      *
      * @param string Is a string that you want to format with {} brackets in place
      * @param arguments Zero or more arguments to format the string with
      * @return Formatted string
-     *
-     * @author Artem Pronchakov
      */
     public static String fmt(final String string, Object... arguments) {
 
