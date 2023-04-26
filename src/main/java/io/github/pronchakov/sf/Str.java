@@ -17,7 +17,7 @@ public class Str {
      *
      * Usage example:
      * <i>String result = Str.fmt("I use {} since {}.", "Java", 1995);</i>
-     * String in result: "I use Java since 1995."
+     * String result: "I use Java since 1995."
      *
      * @param string Is a string that you want to format with {} brackets in place
      * @param arguments Zero or more arguments to format the string with
