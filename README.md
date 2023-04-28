@@ -8,7 +8,7 @@ This small library is for formatting strings
     <dependency>
         <groupId>io.github.pronchakov</groupId>
         <artifactId>string-format</artifactId>
-        <version>1-SNAPSHOT</version>
+        <version>0.0.1</version>
     </dependency>
 
 #### Supported data types for arguments:
